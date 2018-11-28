@@ -1,0 +1,33 @@
+fields:
+    processing_section:
+        label: offline.tagwrapper::lang.settings.sections.processing
+        type: section
+        comment: offline.tagwrapper::lang.settings.sections.processing_comment
+
+    wrappers:
+        type: repeater
+        span: full
+        form:
+            fields:
+                target_tag:
+                    label: offline.tagwrapper::lang.settings.tag-selector
+                    comment: offline.tagwrapper::lang.settings.tag-selector_comment
+                    type: text
+                    required: required
+                    placeholder: //table[contains(@class,"table")]
+                tag_wrapper_type:
+                    label: offline.tagwrapper::lang.settings.wrapper-type
+                    comment: offline.tagwrapper::lang.settings.wrapper-type_comment
+                    type: text
+                    required: required
+                    placeholder: div
+                tag_wrapper_class:
+                    label: offline.tagwrapper::lang.settings.wrapper-class
+                    comment: offline.tagwrapper::lang.settings.wrapper-class_comment
+                    type: text
+                    placeholder: class
+                tag_wrapper_id:
+                    label: offline.tagwrapper::lang.settings.wrapper-id
+                    comment: offline.tagwrapper::lang.settings.wrapper-id_comment
+                    type: text
+                    placeholder: id
