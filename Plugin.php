@@ -64,7 +64,7 @@ class Plugin extends PluginBase
                 'category'    => 'system::lang.system.categories.cms',
                 'description' => 'offline.tagwrapper::lang.plugin.description',
                 'icon'        => 'icon-code',
-                'class'       => 'OFFINE\TagWrapper\Models\Settings',
+                'class'       => 'OFFLINE\TagWrapper\Models\Settings',
                 'order'       => 500,
                 'keywords'    => 'wrapper tag',
             ],
