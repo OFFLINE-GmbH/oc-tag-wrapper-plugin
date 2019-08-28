@@ -67,6 +67,7 @@ class Plugin extends PluginBase
                 'class'       => 'OFFLINE\TagWrapper\Models\Settings',
                 'order'       => 500,
                 'keywords'    => 'wrapper tag',
+                'permissions' => ['offline.tagwrapper.manage_settings'],
             ],
         ];
     }
